@@ -1,3 +1,4 @@
+
 body{
   margin: 0%;
   background-color: #fdfaf6;
@@ -50,4 +51,25 @@ footer{
   height: 50px ;
 background-color: #fb9300;
 text-align: center;
+}
+
+#aboutus {
+  background-color: #deedf0;
+  margin: 0%;
+}
+
+#header, #footer {
+  height: 100px;
+  background-color: #fff5eb;
+}
+
+#main{
+  height: 380px ;
+}
+
+#sec1, #sec2{
+height: 250px;
+width: 250px;
+background-color: #b2b8a3;
+display: inline-block;
 }
