@@ -52,10 +52,15 @@ footer{
 background-color: #fb9300;
 color: white;
 text-align: center;
+<<<<<<< HEAD
 padding: 2%;
 }
 
 /* about us */
+=======
+}
+
+>>>>>>> 75852719e1e14ecff5534a7cf2c1898e00e63758
 #aboutus {
   background-color: #deedf0;
   margin: 0%;
