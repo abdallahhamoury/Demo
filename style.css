@@ -1,5 +1,64 @@
 
+
 body{
+
+  background-image: url("https://freedesignfile.com/upload/2018/09/Cup-with-coffee-time-background-vector.jpg");
+   background-repeat: no-repeat;
+  background-size: cover; 
+  margin: 0%;
+}
+
+th,td{
+  border: 1px solid black;
+  text-align: center;
+}
+thead{
+  border: 1px solid black;
+  background-color: rgba(137, 139, 96, 0.842);
+}
+table{
+  border: 1px solid black;
+  margin-top: 3%;
+  margin-left: 1%
+}
+a{
+  color: red;
+  font-size: 20px;
+}
+
+/* ul#orders {
+  background-color: #ca9e7b;
+ opacity: 0.5;
+  font-weight: bold;
+  color: hsl(0, 18%, 10%);
+  width: 300px;
+  overflow: auto;
+}
+table{
+  box-shadow: 2px 3px 15px 12px crimson;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+td {
+  text-align: center;
+  border-left: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding:2px ;
+}
+td:last-child{border-right: 1px solid rgb(0, 0, 0);
+
+}
+tr{
+  border: 1px solid rgb(0, 0, 0);
+}
+table img {
+  width: 50px;
+  height: 50px;
+}  */
+
+
+/* body{
   margin: 0%;
   background-color: #fdfaf6;
 }
@@ -52,16 +111,11 @@ footer{
 background-color: #fb9300;
 color: white;
 text-align: center;
-<<<<<<< HEAD
 padding: 2%;
 }
 
 /* about us */
-=======
-}
-
->>>>>>> 75852719e1e14ecff5534a7cf2c1898e00e63758
-#aboutus {
+/* #aboutus {
   background-color: #deedf0;
   margin: 0%;
 }
@@ -80,4 +134,4 @@ height: 250px;
 width: 250px;
 background-color: #b2b8a3;
 display: inline-block;
-}
+}  */
