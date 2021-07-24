@@ -2,74 +2,65 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- <style>
-    div{
-      width: 300px;
-      border : 1px solid green;
-      height: 300px;
-    }
-  </style> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
 
 <body>
+    <header></header>
+    <main>
+        <form id="orderForm">
+            <fieldset>
+                <legend>Coffee Order</legend>
 
-  <!-- <button id="btn1" >click me 1</button>
-<button id="btn2" >click me 2</button> -->
-  <!-- <div id="container" ></div>
+                <label for="custName">First Name</label>
+                <input type="text" name="custName" id="custName" required placeholder="Name" />
 
-  <form action="" id="myForm">
+                <label for="size">Size</label>
+                <select name="size" id="size">
+                    <option value="6">6 oz</option>
+                    <option value="12">12 oz</option>
+                    <option value="16">16 oz</option>
+                    <option value="20">20 oz</option>
+                    <option value="32">32 oz</option>
+                </select>
 
-    <fieldset>
-      <legend>Student info</legend>
-      <label for="stdName">student name</label>
-      <input type="text" id="stdName" name="stdName"/>
-      <label for="age">student age</label>
-      <input type="number" id="age" name="age"/>
-      <label for="grade">grade</label>
-      <input type="number" id="grade" name="grade"/>
+                <label for="milk">Milk</label>
+                <select name="milk" id="milk">
+                    <option value="regular">Regular</option>
+                    <option value="almond">Almond</option>
+                    <option value="coconut">Coconut</option>
+                    <option value="none">None</option>
+                </select>
 
-      <input type="submit"/>
-    </fieldset>
+                <label for="isHot">Hot</label>
+                <input name="isHot" type="checkbox" />
 
-  </form> -->
+                <label for="drinkType">Drink</label>
+                <select name="drinkType" id="drinkType">
+                    <option value="latte">Latte</option>
+                    <option value="blackCoffee">Black Coffee</option>
+                    <option value="coldBrew">Cold Brew</option>
+                </select>
 
-
-
-  <!-- <div id="divHi"></div>
-<div id="divBye"></div>
-<div id="pcontent"></div> -->
-  <!-- <div id="ulcontainer" ></div> -->
-
-
-  <!-- <div id="container" ></div> -->
-
-  <!-- <div id="container"></div> -->
-
-  <!-- <form action="" id="myForm">
-    <fieldset>
-      <legend>Student info</legend>
-      <label for="stdName"> student name:</label>
-      <input type="text" id="stdName" name="stdName" />
-      <label for="age"> Age:</label>
-      <input type="number" id="age" name="age" />
-      <label for="grade"> grade:</label>
-      <input type="number" id="grade" name="grade" />
-      <input type="submit">
-
-    </fieldset>
-  </form> -->
+                <button type="submit">Submit</button>
 
 
-  <!-- <button id="btn1">clickme1</button>
-  <button id="btn2">clickme2</button>
-  <div id="container"> </div> -->
+            </fieldset>
+        </form>
+
+        <section>
+            <h3>Previous Orders</h3>
+            <ul id="orders"></ul>
+        </section>
 
 
-  <script src="script.js"></script>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
